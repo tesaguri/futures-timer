@@ -1,0 +1,5 @@
+var N=null,E="",T="t",U="u",searchIndex={};
+var R=["duration","result"];
+
+searchIndex["futures_timer"]={"doc":"A general purpose crate for working with timeouts and…","i":[[3,"Delay","futures_timer","A future representing the notification that an elapsed…",N,N],[11,"new",E,"Creates a new future which will fire at `dur` time into…",0,[[[R[0]]],["delay"]]],[11,"reset",E,"Resets this timeout to an new timeout which will fire at…",0,[[["self"],[R[0]]]]],[11,"into",E,E,0,[[],[U]]],[11,"from",E,E,0,[[[T]],[T]]],[11,"try_from",E,E,0,[[[U]],[R[1]]]],[11,"try_into",E,E,0,[[],[R[1]]]],[11,"borrow",E,E,0,[[["self"]],[T]]],[11,"borrow_mut",E,E,0,[[["self"]],[T]]],[11,"type_id",E,E,0,[[["self"]],["typeid"]]],[11,"drop",E,E,0,[[["self"]]]],[11,"fmt",E,E,0,[[["self"],["formatter"]],[[R[1],["error"]],["error"]]]],[11,"poll",E,E,0,[[["context"],["self"],["pin"]],["poll"]]]],"p":[[3,"Delay"]]};
+initSearch(searchIndex);addSearchOptions(searchIndex);
